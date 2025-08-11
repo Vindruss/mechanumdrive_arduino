@@ -24,7 +24,7 @@ endforeach()
 add_library(
   mechanumdrive_arduino
   SHARED
-  hardware/mechanumbot_system.cpp
+  hardware/mechanumbot_system.hpp
 )
 target_compile_features(mechanumdrive_arduino PUBLIC cxx_std_17)
 target_include_directories(mechanumdrive_arduino PUBLIC
